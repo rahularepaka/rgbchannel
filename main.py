@@ -15,17 +15,17 @@ choice = st.sidebar.selectbox("Menu", menu)
 
 if choice == 'RGB-Splitter':
     st.subheader("RGB-Splitter")
-    
+
     spilt()
-    
+
 if choice == 'Color-Spaces':
     st.subheader("Color-Spaces")
 
     colorspaces()
-    
+
 if choice == 'About':
     st.title("About")
-    
+
     with st.expander("License"):
 
         st.markdown("""
@@ -54,6 +54,9 @@ if choice == 'About':
         '''
             Github account : https://github.com/rahularepaka
             '''
+        '''
+            Website : https://rahularepaka.herokuapp.com/
+        '''
     )
 
     st.info("Feel free to edit with the source code and enjoy coding")
