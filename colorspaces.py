@@ -13,6 +13,8 @@ def colorspaces():
         filenames = os.listdir(folder_path)
         selected_filename = st.selectbox('Select a Image file', filenames)
         return os.path.join(folder_path, selected_filename)
+    
+    st.warning("Enigma CS Club - LiveStream Demo")
 
     st.title("Color Spaces Conversion - Image")
 
@@ -64,4 +66,3 @@ def colorspaces():
         LAB()
 
     st.warning("Made using Python, Streamlit and OpenCV")
-    st.info("Enigma CS Club - LiveStream Session Demo")

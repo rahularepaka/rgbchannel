@@ -24,6 +24,8 @@ if choice == 'Color-Spaces':
     colorspaces()
 
 if choice == 'About':
+    st.warning("Enigma CS Club - LiveStream Demo")
+    
     st.title("About")
 
     with st.expander("License"):
@@ -60,4 +62,4 @@ if choice == 'About':
     )
 
     st.info("Feel free to edit with the source code and enjoy coding")
-    st.warning("Enigma CS Club - LiveStream Demo")
+    
